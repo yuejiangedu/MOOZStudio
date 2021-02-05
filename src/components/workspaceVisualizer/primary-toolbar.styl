@@ -1,0 +1,50 @@
+.primary-toolbar {
+    height 31px
+    display flex;
+    .dropdown{
+      flex 1;
+      width 132px
+      height 100%
+      line-height 30px
+      display flex
+      margin 0
+      &.active{
+        button{
+          border-color #2A7DE1 !important;
+          background-color #fff !important;
+          >i{
+            color #2A7DE1;
+          }
+          >span{
+            border-top-color #2A7DE1
+          }
+        }
+      }
+      button:focus{
+        border-color #ccc;
+      }
+      &:first-child{
+        margin-right 0px
+      }
+      .dropdown-btn{
+        flex 1
+        font-size 14px
+        white-space nowrap;
+        overflow:hidden;
+        text-overflow ellipsis;
+      }
+      .dropdown-toggle{
+        width 30px 
+        >i{
+          width 20px;
+          height 12px;
+        }
+        >span{
+          border-width: 8px 5px 5px 5px;
+          margin 0 auto;
+          display block
+          border-top-color #c7c7c7
+        }
+      }
+    }
+}

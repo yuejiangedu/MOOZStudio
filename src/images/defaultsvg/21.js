@@ -1,0 +1,1 @@
+exports.svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.04 87.62"><defs><style>.cls-211,.cls-212{fill:none;}.cls-211{stroke:#000;stroke-miterlimit:10;}</style></defs><title>正三角</title><g id="图层_2" data-name="图层 2"><g id="图层_1-2" data-name="图层 1"><polygon class="cls-211" points="83.55 76.23 42.5 76.23 1.49 76.23 42.52 1.04 83.55 76.23"/></g></g></svg>'

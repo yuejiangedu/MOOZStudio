@@ -1,0 +1,40 @@
+.printing-progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, .5);
+  color: #777777;
+  overflow: hidden;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: none;
+  z-index: 100;
+  border-radius: 3px;
+}
+
+.isshow {
+  display: inline-block;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 420px;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+
+  >p {
+    position: absolute;
+    top: -28px;
+    left: 0;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+}

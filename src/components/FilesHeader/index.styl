@@ -1,0 +1,50 @@
+.header{
+  height 40px
+  margin: 20px
+  position: relative
+  button{
+    margin-right: 12px
+    font-size: 14px
+  }
+  .delete:hover{
+    .icondelete{
+      background-image: url('./image/delete_hover.svg'); 
+    }
+  }
+  .remove:hover{
+    .iconremove{
+      background-image: url('./image/remove_hover.svg');
+    }
+  }
+  .folderadd:hover{
+    .iconfolderadd{
+      background-image: url('./image/new_hover.svg');
+    }
+  }
+  .disable{
+    pointer-events: none;
+  }
+  
+  .iconremove,
+  .iconfolderadd,
+  .icondelete,
+  .icondownload{
+    display: inline-block;
+    height: 14px
+    width: 16px
+    margin-right: 8px
+    vertical-align: middle
+  }
+  .iconremove{
+    background-image: url('./image/remove.svg');
+  }
+  .iconfolderadd{
+    background-image: url('./image/new.svg');
+  }
+  .icondelete{
+    background-image: url('./image/delete.svg'); 
+  }
+  .icondownload{
+    background-image: url('./image/download.svg');
+  }
+}

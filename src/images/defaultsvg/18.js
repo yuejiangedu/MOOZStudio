@@ -1,0 +1,1 @@
+exports.svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.04 85.04"><defs><style>.cls-18{fill:none;}</style></defs><title>圆</title><g id="图层_2" data-name="图层 2"><g id="图层_1-2" data-name="图层 1"><path d="M42.52,8.67A33.85,33.85,0,1,1,8.67,42.52,33.89,33.89,0,0,1,42.52,8.67m0-1A34.85,34.85,0,1,0,77.37,42.52,34.85,34.85,0,0,0,42.52,7.67Z"/></g></g></svg>'

@@ -1,0 +1,1 @@
+exports.svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.04 85.04"><defs><style>.cls-16{fill:none;}</style></defs><title>平行四边形</title><g id="图层_2" data-name="图层 2"><g id="图层_1-2" data-name="图层 1"><path d="M51.62,10.73,83.13,74.31H33.42L1.91,10.73H51.62m.62-1H.3L32.8,75.31H84.74L52.24,9.73Z"/></g></g></svg>'

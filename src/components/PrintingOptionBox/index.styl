@@ -1,0 +1,180 @@
+.helper-tips{
+    background-color #000
+    position: fixed
+    z-index: 200
+    color: #fff
+    transition: all  1s ;
+    opacity 1
+    padding: 15px 25px 0 25px
+    transition: opacity 0.5 ease-in
+    transition-delay: 0.5s;
+    .title{
+      font-weight: 700
+    }
+    .introduction{
+      padding-left: 25px
+      margin-bottom: 15px
+      max-width : 300px
+    }
+    ul{
+      padding-left: 42px
+    }
+    ul,li{
+      list-style-type disc
+    }
+}
+.helper-tips::after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-color #000
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 32px;
+    right: -7px;
+    z-index: 199
+}
+.hide{
+  display none  
+  // opacity: 0
+}
+
+.option-template-title {
+  display: flex;
+  user-select: none;
+  align-items: center;
+  line-height: 18px;
+  margin-bottom: 12px;
+  height: 18px;
+  font-size: 12px;
+  color: #5C5C5C;
+
+  p {
+    margin-bottom: 0;
+    height: 20px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  >span {
+    flex-grow: 1;
+    color: #999999;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.option-template-content.isshow {
+  display: block;
+}
+
+.option-template-content {
+  display: none;
+  user-select: none;
+  padding-bottom: 16px;
+
+  .option-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-left: 12px;
+
+    label {
+      white-space: nowrap;
+      margin-bottom: 0;
+      color: #5C5C5C;
+      max-width: 120px;
+    }
+
+    >span {
+      display: flex;
+      justify-content: flex-end;
+
+      input {
+        width: 110px;
+      }
+    }
+  }
+}
+
+select-list() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.printing-config-file-select, .material-configs-list {
+  select-list();
+}
+
+.material-configs-list {
+  margin-bottom: 12px;
+  padding: 0 4px 0 14px;
+
+  input {
+    width: 114px;
+    float: right;
+  }
+
+  label {
+    margin-bottom: 0;
+    line-height: 20px;
+    color: #5C5C5C;
+  }
+}
+
+.printing-materials-select {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #F1F1F1;
+  margin-bottom: 20px;
+  margin-right: 22px;
+
+  .materials-select {
+    margin-bottom: 16px;
+    select-list();
+  }
+}
+
+.printing-config-file-select {
+  padding-right: 22px;
+
+  label {
+    font-weight: 400;
+    color: #333333;
+    line-height: 24px;
+    font-size: 14px;
+  }
+}
+
+.printing-option-list {
+  flex: 1;
+  padding-left: 5px;
+  padding-right: 22px;
+  margin-top: 16px;
+  overflow-x: scroll;
+  box-sizing: content-box;
+
+  >div {
+    border-bottom: 1px solid #F1F1F1;
+    padding-top: 16px;
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.select-option-icon {
+  color: #DDDFE7;
+
+  &:hover {
+    color: #C6C9D7;
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+<title>icon_版本</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<rect id="path-1" x="550" y="220" width="600" height="100" rx="4"></rect>
+<filter x="-1.6%" y="-9.5%" width="103.8%" height="123.0%" filterUnits="objectBoundingBox" id="filter-2">
+<feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+<feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+<feColorMatrix values="0 0 0 0 0.6 0 0 0 0 0.6 0 0 0 0 0.6 0 0 0 0.32 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+</filter>
+</defs>
+<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="MOOZ——工作区-Copy-2" transform="translate(-580.000000, -285.000000)">
+<rect id="backgroup" fill="#FAFDFF" x="0" y="0" width="1440" height="900" rx="1"></rect>
+<g id="card1">
+<use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+<use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+</g>
+<g id="icon_版本" transform="translate(580.000000, 285.000000)">
+<g id="Group-2" fill="#333333">
+<path d="M2,0 L16.1186765,0 L16.1186765,0 L20,4.06839844 L20,18 C20,19.1045695 19.1045695,20 18,20 L2,20 C0.8954305,20 1.3527075e-16,19.1045695 0,18 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-11"></path>
+</g>
+<polygon id="Triangle" fill="#FFFFFF" transform="translate(16.791111, 2.275918) scale(1, -1) rotate(-45.000000) translate(-16.791111, -2.275918) " points="16.7895 1.20817194 18.9249921 3.34366403 14.6572297 3.34044227"></polygon>
+<text id="v" font-family="PingFangSC-Semibold, PingFang SC" font-size="12" font-weight="500" fill="#FFFFFF" text-decoration="underline">
+<tspan x="7" y="13">v</tspan>
+</text>
+</g>
+</g>
+</g>
+</svg>

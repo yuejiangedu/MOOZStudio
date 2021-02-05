@@ -1,0 +1,108 @@
+.mooz-axes{
+  // width 334px
+  .axes-table{
+    width 100%;
+    tr{
+      height 30px
+      td{
+        &:first-child{
+          width 60px
+        }
+        text-align center;      
+      }
+    }
+    th{
+      padding 2px 4px
+      text-align center;
+    }
+  
+    tbody{
+      font-size 12px
+      line-height 14px
+    }
+  }
+  .key-pad{
+    height 102px
+    padding 20px 0 
+    box-sizing content-box;
+    margin-left -5px
+    display flex
+    .left-pad{
+      flex 3
+      >div:nth-child(2),
+      >div:nth-child(4),
+      >div:nth-child(5),
+      >div:nth-child(6),
+      >div:nth-child(8)
+      {
+        >button{
+          background-color rgba(199,199,199,.25)
+          border-color transparent
+        }
+      }
+      >div:nth-child(1),
+      >div:nth-child(3),
+      >div:nth-child(7),
+      >div:nth-child(9){
+        >button{
+          border-color #D6EEFF
+          color rgba(42,125,255,.7)
+        }
+      }
+      button{
+          border-radius 6px
+          height 24px
+          font-size 12px
+          color #2A7DE1
+      }
+    }
+    .right-pad{
+      flex 1
+      box-sizing border-box
+      height 100%;
+      display flex
+      flex-direction column;
+      padding-right 5px
+      >button{
+        flex 1
+        box-sizing border-box
+        padding 0
+        font-size 12px;
+        line-height 24px;
+        margin 0
+        background-color rgba(199,199,199,.25)
+        color #2A7DE1
+        border-color transparent;
+        &:first-child{
+          margin-top 10px
+          margin-bottom 10px
+        }
+      }
+    }
+    button{
+      &:hover{
+        border-color #2A7DE1 !important;
+      }
+    }
+  }
+  .Axes-setting{
+    >section:first-child{
+      display flex;
+      margin-bottom 20px
+      >button{
+        flex 1;
+        white-space inherit;
+        font-size 12px
+        &:first-child{
+          margin-right 10px
+        }
+      }
+    }
+    // button{
+ 
+    //   width 80px
+    //   box-sizing content-box
+    //   // float:right
+    // }
+  }
+}

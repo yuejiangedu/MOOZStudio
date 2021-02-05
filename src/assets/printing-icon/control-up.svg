@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="22px" viewBox="0 0 50 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>icon/显示工具（normal）</title>
+    <desc>Created with Sketch.</desc>
+    <g id="3D打印区（第一版）" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="收回按钮状态" transform="translate(-65.000000, -189.000000)">
+            <g id="编组-14备份-2" transform="translate(65.000000, 38.000000)">
+                <g id="icon/显示工具（normal）" transform="translate(0.000000, 151.000000)">
+                    <path d="M0,0 L50,0 L50,14 C50,18.418278 46.418278,22 42,22 L8,22 C3.581722,22 5.41083001e-16,18.418278 0,14 L0,0 L0,0 Z" id="矩形" fill="#F3F8FF"></path>
+                    <path d="M25.7071068,7.70710678 L29.2928932,11.2928932 C29.6834175,11.6834175 29.6834175,12.3165825 29.2928932,12.7071068 C29.1053568,12.8946432 28.8510029,13 28.5857864,13 L21.4142136,13 C20.8619288,13 20.4142136,12.5522847 20.4142136,12 C20.4142136,11.7347835 20.5195704,11.4804296 20.7071068,11.2928932 L24.2928932,7.70710678 C24.6834175,7.31658249 25.3165825,7.31658249 25.7071068,7.70710678 Z" id="三角形" fill="#0181EF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

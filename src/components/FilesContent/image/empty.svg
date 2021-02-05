@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="752px" height="309px" viewBox="0 0 752 309" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>编组 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#CDD0DD" stop-opacity="0.335691652" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FAFBFE" offset="0%"></stop>
+            <stop stop-color="#F9F9FB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#ECF1F7" offset="0%"></stop>
+            <stop stop-color="#C6C9D7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#ECF1F7" offset="0%"></stop>
+            <stop stop-color="#C6C9D7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="文件管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="文件管理（设备空白状态）" transform="translate(-346.000000, -312.000000)">
+            <g id="编组" transform="translate(346.000000, 312.000000)">
+                <g id="编组-5">
+                    <path d="M0,309 C0,239.965 168.341,184 376,184 C583.659,184 752,239.965 752,309" id="Fill-1" fill="url(#linearGradient-1)"></path>
+                    <path d="M603,234 C603,256.644 501.593,275 376.5,275 C251.407,275 150,256.644 150,234 C150,211.356 251.407,193 376.5,193 C501.593,193 603,211.356 603,234" id="Fill-3" fill="url(#linearGradient-2)"></path>
+                    <g id="编组-4" transform="translate(270.000000, 63.000000)">
+                        <path d="M198.5,28 L198.5,39.01 C196.21,38.31 193.68,37.93 190.96,37.93 L57.08,37.93 C42.35,37.93 27.29,49.02 23.6,62.58 L1.1,145.35 C-2.13,157.23 4.4,167.22 15.98,169.5 L14.68,169.5 C6.609,169.5 0,162.89 0,154.82 L0,47.5 C0,43.4 0.891,39.51 2.5,35.99 C6.9,26.29 16.7,19.5 28,19.5 L96.58,19.5 L113.74,0 L170.5,0 C185.9,0 198.5,12.6 198.5,28" id="Fill-4" fill="url(#linearGradient-3)"></path>
+                        <path d="M198.5003,108.6501 L188.5193,145.3501 C185.3003,157.2201 173.3593,167.1901 160.5603,169.5001 L15.9803,169.5001 C4.4003,167.2201 -2.1297,157.2301 1.0993,145.3501 L23.5993,62.5801 C27.2903,49.0191 42.3493,37.9301 57.0803,37.9301 L190.9603,37.9301 C193.6793,37.9301 196.2103,38.3091 198.5003,39.0101 C208.5803,42.1201 214.0303,51.5301 211.0303,62.5801 L198.5003,108.6501 Z" id="Fill-6" fill="url(#linearGradient-4)"></path>
+                    </g>
+                    <g id="编组-2" transform="translate(244.000000, 0.000000)" fill="#E5EAF1">
+                        <polygon id="矩形" points="120.513161 0 133.513161 0 130.513161 39 122.513161 39"></polygon>
+                        <polygon id="矩形备份-3" points="187.968692 2 200.184696 5.25801339 179.238551 41 171.72101 38.9950687"></polygon>
+                        <polygon id="矩形备份-5" points="65.0576288 5 52.8416247 8.17447459 73.7877702 43 81.3053111 41.0464772"></polygon>
+                        <polygon id="矩形备份-4" points="254.067743 24 264.026321 30.04131 227.660444 58 221.532089 54.2822708"></polygon>
+                        <polygon id="矩形备份-6" points="9.95857776 28 3.78860405e-14 34.2189955 36.3658766 63 42.4942322 59.1729258"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

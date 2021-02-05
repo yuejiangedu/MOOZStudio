@@ -1,0 +1,229 @@
+.container {
+  height: calc(100% - 90px);
+}
+
+.FilesContentHeader {
+  position: relative;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  padding: 5px 20px;
+  background: #DBE9FF;
+  span {
+    display: inline-block;
+  }
+
+  .Filespath {
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 0;
+    vertical-align: center;
+
+    .disable {
+      background-color: #fff;
+      pointer-events: none;
+      .iconback{
+        background-image: url('./image/back_disable.svg')!important;
+      }
+      .iconforward{
+        background-image: url('./image/forward_disable.svg')!important;
+      }
+    }
+
+    .left {
+      border-radius: 3px 0 0 3px
+      border-right: 0px solid #fff!important;
+      .iconback{
+        width 8px
+        height 14px
+        background-image: url('./image/back.svg')
+      }
+    }
+    .right {
+      border-radius: 0 3px 3px 0 
+      .iconforward{
+        width 8px
+        height 14px
+        background-image: url('./image/forward.svg')
+      }
+    }
+
+    .left, .right {
+      cursor: pointer;
+      width: 26px;
+      height: 28px;
+      text-align: center;
+      border: 1px solid #C7C7C7;
+      background-color: #fff;
+    }
+
+    svg {
+      margin-top: -5px;
+    }
+
+    .line {
+      width: 1px;
+      height: 30px;
+      background-color: #C7C7C7;
+      margin: -10px 10px;
+    }
+
+    .path {
+      display: inline-block;
+
+      .pathitem {
+        cursor: pointer;
+        span:first-child{
+          padding: 0 5px;
+        }
+        border-radius: 2px
+      }
+
+      .pathitem:hover {
+        background-color: #ccc;
+      }
+    }
+  }
+
+  .FileSearch {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    input{
+      height 30px!important
+    }
+  }
+}
+
+.FilesContainer {
+  height: calc(100% - 130px);
+  overflow: auto;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, 160px);
+  grid-template-rows: repeat(auto-fill, 170px);
+  grid-gap: 40px;
+  margin: 30px 30px;
+
+  .downloadfile {
+    position: relative;
+
+    >div {
+      position: absolute;
+      width: 88px;
+      border-radius: 4px;
+      bottom: 25%;
+      left: 50%;
+      transform: translateX(-50%);
+
+      >img {
+        width 100%
+      }
+    }
+  }
+
+  .item {
+    padding-top: 5px;
+    width: 160px;
+    height: 170px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    border:1px solid transparent;
+    border-radius: 12px
+    img {
+      margin-top: 15px
+      width: 120px;
+      height: 102px;
+    }
+
+    span {
+      display: block
+      margin-top: 15px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .input {
+      width: 95%;
+      outline: none;
+      text-align: center;
+      border: 1px solid #ccc;
+      margin-top: 15px;
+    }
+  }
+
+  .item:hover {
+    background: rgba(50, 130, 255, 0.1);
+  }
+
+  .selected {
+    background: rgba(50, 130, 255, 0.1);
+    border: 1px solid rgba(50, 130, 255, 1);
+    position: relative;
+
+    .loaderIcon1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+    }
+  }
+
+  .loaderIcon {
+    position: absolute;
+    background: #DBE9FF;
+    z-index: 50;
+    top: 97px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    span {
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+  .downloadfile>span{
+    position relative
+  }
+
+  .nofile {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+    text-align: center
+
+    span{
+      display: block
+    }
+    .iconempty{
+      width 752px
+      height 309px
+      background-image url('./image/empty.svg')
+    }
+    .emptytext{
+      font-size: 16px
+      color: #5C5C5C
+      .downloadstl{
+        cursor pointer
+        display: inline-block
+        color: #2A7DE1!important
+        text-decoration:underline  
+      }
+    }
+  }
+}
+.footer{
+    position: absolute;
+    bottom: 8px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: 30px;
+    line-height: 37px;
+    padding: 0 20px;
+    color: #999999
+    font-size: 12px
+}

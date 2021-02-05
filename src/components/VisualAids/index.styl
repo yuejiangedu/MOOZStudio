@@ -1,0 +1,54 @@
+.handle-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 10px;
+
+  button >p {
+    margin: 0;
+  }
+}
+
+.visual-aids {
+  display: flex;
+}
+
+.tips-container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  >div {
+    margin-top: 35px;
+    border-top: 1px solid rgba(0, 0, 0, .06);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    >button {
+      height: 32px;
+      margin-left: 26px;
+    }
+
+    >label {
+    }
+  }
+}
+
+.view-tips {
+  position: absolute;
+  z-index: 999;
+  background: url('../../images/tips.svg') 0 0 no-repeat;
+  width: 198px;
+  height: 115px;
+  font-size: 12px;
+  padding: 10px;
+  left: -160px;
+  bottom: 140px;
+}
+
+.hide-view-tips {
+  display: none;
+}

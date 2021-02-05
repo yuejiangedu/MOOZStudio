@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>icon/新建文件夹</title>
+    <desc>Created with Sketch.</desc>
+    <g id="文件管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="文件管理（缩略图状态）默认不选中任何文件" transform="translate(-254.000000, -119.000000)" fill="#333333" fill-rule="nonzero">
+            <g id="编组-20" transform="translate(114.000000, 110.000000)">
+                <g id="编组-3" transform="translate(124.000000, 0.000000)">
+                    <path d="M32,23 L16,23 L16,9 L23.5346234,9 L24.77562,11.0222232 L31.9778256,11.0222232 L31.9778256,23 L32,23 Z M17.3296505,21.6666704 L30.6482106,21.6666704 L30.6482106,12.3555612 L24.0443405,12.3555612 L22.8033438,10.333338 L17.3296505,10.333338 L17.3296505,21.6666704 L17.3296505,21.6666704 Z M23.468144,14.1999967 L24.797784,14.1999967 L24.797784,19.9777801 L23.468144,19.9777801 L23.468144,14.1999967 Z M21.2520807,16.4222163 L27.0138577,16.4222163 L27.0138577,17.7555501 L21.2520807,17.7555501 L21.2520807,16.4222163 Z" id="icon/新建文件夹"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

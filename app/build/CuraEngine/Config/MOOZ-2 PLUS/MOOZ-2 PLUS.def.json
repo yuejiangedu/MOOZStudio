@@ -1,0 +1,74 @@
+{
+  "name": "MOOZ-2 PLUS",
+  "version": 2,
+  "inherits": "fdmprinter",
+  "metadata": {
+    "visible": true,
+    "platform": "false",
+    "file_formats": "text/x-gcode",
+    "machine_extruder_trains": {
+      "0": "MOOZ-2 PLUS_extruder_0"
+    }
+  },
+  "overrides": {
+    "machine_name": { "default_value": "MOOZ-2 PLUS" },
+    "machine_width": { "default_value": 200 },
+    "machine_depth": { "default_value": 200 },
+    "machine_height": { "default_value": 190 },
+    "machine_center_is_zero": {
+      "default_value": false
+    },
+    "machine_shape": {
+      "default_value": "rectangular"
+    },
+    "machine_buildplate_type": {
+      "default_value": "aluminum"
+    },
+    "machine_heated_bed": {
+      "default_value": true
+    },
+    "machine_head_with_fans_polygon": {
+      "default_value": [
+        [-20, 10],
+        [-20, -10],
+        [10, -10],
+        [10, 10]
+      ]
+    },
+    "machine_nozzle_size": {
+      "default_value": 0.4
+    },
+    "material_diameter": {
+      "default_value": 1.75
+    },
+    "machine_max_acceleration_x": {
+      "default_value": 1000
+    },
+    "machine_max_acceleration_y": {
+      "default_value": 1000
+    },
+    "machine_max_acceleration_z": {
+      "default_value": 1000
+    },
+    "machine_max_acceleration_e": {
+      "default_value": 1000
+    },
+    "machine_acceleration": {
+      "default_value": 1000
+    },
+    "material_print_temp_prepend": {
+      "default_value": true
+    },
+    "material_bed_temp_prepend": {
+      "default_value": true
+    },
+    "machine_start_gcode": {
+      "default_value": "G28 ;Home\nG1 Z15.0 F2000 ;Move the platform down 15mm\nG92 E0\nG1 F200 E3\nG92 E0"
+    },
+    "machine_end_gcode": {
+      "default_value": "M104 S0\nM140 S0\nG92 E1\nG1 E-1 F300\nG28 X0 Y0 Z0\nM84\n"
+    },
+
+    "gantry_height": { "value": 100 }
+  }
+}

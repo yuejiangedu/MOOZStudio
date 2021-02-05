@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>icon/删除（hover&amp;press）</title>
+    <desc>Created with Sketch.</desc>
+    <g id="文件管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="按钮等控件的交互样式" transform="translate(-654.000000, -400.000000)" fill="#2A7DE1" fill-rule="nonzero">
+            <g id="icon/删除（hover&amp;press）" transform="translate(654.000000, 400.000000)">
+                <path d="M7.53462337,0 L8.77562004,2.02222315 L15.9778256,2.02222315 L15.9778256,14 L-1.59872116e-14,14 L-1.59872116e-14,0 L7.53462337,0 Z M6.80334383,1.33333803 L1.32965049,1.33333803 L1.32965049,12.6666704 L14.6482106,12.6666704 L14.6482106,3.35556118 L8.0443405,3.35556118 L6.80334383,1.33333803 Z" id="形状结合"></path>
+                <g id="编组-18" transform="translate(8.252081, 7.922216) rotate(45.000000) translate(-8.252081, -7.922216) translate(5.252081, 4.422216)">
+                    <polygon id="路径" points="0 3 5.76177696 3 5.76177696 4.33333383 0 4.33333383"></polygon>
+                    <polygon id="路径" transform="translate(2.880888, 3.666667) rotate(90.000000) translate(-2.880888, -3.666667) " points="1.13686838e-13 3 5.76177696 3 5.76177696 4.33333383 1.13686838e-13 4.33333383"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

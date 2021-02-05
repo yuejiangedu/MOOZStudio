@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+package-lock.json
+/.eslintcache
+/.nyc_output
+/coverage
+/dist
+/output
+/releases
+app/app/
+app/dist/

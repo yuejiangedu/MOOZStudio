@@ -1,0 +1,92 @@
+.navbar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 45px 20px 3px;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    > li {
+        display: block;
+        display flex;
+        flex-direction column;
+        align-items: center;
+        text-align center;
+        margin  0 auto 35px;
+        color:#839ABF;
+        &.setting{
+          &.active{
+            >a{
+              background-color: transparent;
+            }
+          }
+          >a{
+            background-color: transparent;
+            >img{
+              filter:brightness(1)
+            }
+            &:hover{
+              background-color: transparent;
+              >img{
+                filter:brightness(1)
+              }
+            }
+          }
+        }
+        &:hover{
+          color #3282ff
+        }
+        >a:hover{
+            background-color: #3282ff;
+            >img{
+              filter:brightness(1)
+            }  
+        }
+        &.active{
+          color #3282ff
+          >a{
+            background-color: #3282ff;
+            >img{
+              filter:brightness(1)
+            }  
+          }
+        }
+        > a,
+        > div{
+            border-radius 4px;
+            position: relative;
+            background-color: #dbe9ff;
+            text-decoration: none;
+            white-space: nowrap;
+            width 38px;
+            height 38px;
+            display flex;
+            justify-content: center;
+            vertical-align middle;
+            align-items:center;
+            >img{
+              height 24px
+              width 24px;
+              filter:brightness(0.5)
+            }
+        }
+        >div{
+          >img{     
+            filter:brightness(1)    
+          }
+        }
+        >span{
+          display:block;
+          font-size:12px;
+          line-height:12px;
+          height:12px;
+          font-weight:600;
+          margin:10px 0 0;
+        }
+    }
+}

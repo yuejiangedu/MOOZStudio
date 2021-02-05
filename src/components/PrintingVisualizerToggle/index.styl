@@ -1,0 +1,30 @@
+.visualizer-toggle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80px;
+  color: #1782E5;
+
+  >button {
+    background-color: #fff;
+    padding: 0;
+    border-radius: 4px;
+    overflow: hidden;
+
+    >span {
+      padding: 0 15px;
+      height: 100%;
+      display: inline-block;
+      line-height: 30px;
+      color: #1782E5;
+      &:first-child {
+        border-right: 1px solid #fff;
+      }
+    }
+
+    span.active {
+      background-color: #2a7de1;
+      color: #fff;
+    }
+  }
+}

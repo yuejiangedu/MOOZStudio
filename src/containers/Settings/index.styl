@@ -1,0 +1,107 @@
+.settings {
+    height calc(100% - 50px)  ;
+    padding: 40px 20px 73px 10px;
+    margin 0px 0px 10px 0px
+    background-color #fafdff;
+ 
+    header{
+      border-radius 4px 4px 0 0
+      overflow hidden
+      font-size 14px;
+      color:#fff;
+      text-align center;
+      line-height 50px;
+      height 50px;
+      width 100%
+      display block
+      background-color #2A7DE1
+    }
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height 100%;
+    padding 10px
+    box-shadow 2px 2px 7px rgba(153,153,153,0.2);
+    border-radius 0px 0px 4px 4px
+}
+
+// .row {
+//     display: table-row;
+// }
+
+.col {
+    display: table-cell;
+}
+
+.navbar {
+    position: relative;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    > li {
+        position: relative;
+        line-height 50px
+        display flex;
+        font-size 14px
+        font-weight 600;
+        >i {
+          width 60px
+          display flex
+          justify-content: center;
+          align-items: center
+          object{
+            filter:grayscale(1)
+          }
+        }
+        > a {
+            flex 1
+            position: relative;
+            display: block;
+            color: #000;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+    }
+    > li.active {
+        object{
+          filter:grayscale(0)
+        }
+        > a,
+        > a:focus,
+        > a:hover {
+            color: #2A7DE1;
+        }
+    }
+}
+
+//
+// Left Pane
+//
+.sidenav {
+    display: inline-block;
+    width: 390px;
+}
+
+//
+// Right Pane
+//
+.section {
+    vertical-align: top;
+    position: relative;
+    .heading {
+      padding: 20px 0px;
+      font-weight 600
+      font-size 16px
+      height 62px
+    }
+
+    .content {
+        // padding: 15px;
+    }
+}

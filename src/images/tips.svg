@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="198px" height="115px" viewBox="0 0 198 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>显示5秒后自动消失</title>
+    <defs>
+        <filter x="-1.7%" y="-1.8%" width="103.3%" height="104.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M0,2.00073873 C0,0.895761241 0.901705894,0 1.99900772,0 L590.000992,0 C591.105014,0 592,0.897167931 592,2.00073873 L592,443.999261 C592,445.104239 591.098294,446 590.000992,446 L1.99900772,446 C0.89498624,446 0,445.102832 0,443.999261 L0,2.00073873 Z" id="path-3"></path>
+        <filter x="-17.2%" y="-20.2%" width="134.5%" height="145.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="8" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="12" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="9" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="14" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="6" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MOOZ——激光测试备份-4" transform="translate(-293.000000, -407.000000)">
+            <g id="显示5秒后自动消失" transform="translate(294.000000, 408.000000)">
+                <g id="编组">
+                    <path d="M196,12.783553 L196,75.5413557 C196,82.5721814 189.19,88.3249086 180.868,88.3249086 L172.634,88.3249086 C174.638,97.2459162 184.364,107.69756 188.121,111.471931 C188.719,112.07203 188.22,113 187.291,113 C169.874,112.973462 141.092,100.37653 136.341,88.3249086 L15.132,88.3249086 C6.81,88.3249086 0,82.5721814 0,75.5413557 L0,12.783553 C0,5.75272724 6.81,0 15.132,0 L180.868,0 C189.19,0 196,5.75272724 196,12.783553" id="Fill-1" fill="#FFFFFF"></path>
+                    <path d="M196,12.783553 L196,75.5413557 C196,82.5721814 189.19,88.3249086 180.868,88.3249086 L172.634,88.3249086 C174.638,97.2459162 184.364,107.69756 188.121,111.471931 C188.719,112.07203 188.22,113 187.291,113 C169.874,112.973462 141.092,100.37653 136.341,88.3249086 L15.132,88.3249086 C6.81,88.3249086 0,82.5721814 0,75.5413557 L0,12.783553 C0,5.75272724 6.81,0 15.132,0 L180.868,0 C189.19,0 196,5.75272724 196,12.783553 Z" id="Stroke-3" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

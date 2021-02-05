@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+<title>icon_语言 copy</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<rect id="path-1" x="550" y="220" width="600" height="100" rx="4"></rect>
+<filter x="-1.6%" y="-9.5%" width="103.8%" height="123.0%" filterUnits="objectBoundingBox" id="filter-2">
+<feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+<feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+<feColorMatrix values="0 0 0 0 0.6 0 0 0 0 0.6 0 0 0 0 0.6 0 0 0 0.32 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+</filter>
+</defs>
+<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="MOOZ——工作区-Copy-2" transform="translate(-579.000000, -235.000000)">
+<rect id="backgroup" fill="#FAFDFF" x="0" y="0" width="1440" height="900" rx="1"></rect>
+<g id="card1">
+<use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+<use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+</g>
+<circle id="Oval-Copy" fill="#FFFFFF" cx="599.5" cy="242.5" r="2.5"></circle>
+<g id="icon_语言-copy" transform="translate(580.000000, 236.000000)" opacity="0.8" stroke="#333333" stroke-width="2">
+<circle id="Oval-6" cx="10" cy="10" r="10"></circle>
+<ellipse id="Oval-4" cx="10" cy="10" rx="4" ry="9"></ellipse>
+<line x1="0.993244477" y1="13.5" x2="19.5" y2="13.5" id="Line-Copy"></line>
+<line x1="0.993244477" y1="7.5" x2="19.5" y2="7.5" id="Line-Copy-2"></line>
+</g>
+</g>
+</g>
+</svg>

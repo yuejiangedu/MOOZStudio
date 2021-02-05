@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOZ Studio 2.4.0</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+  </head>
+  <body>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      const newScript = document.createElement('script');
+      // 区分环境
+      if(location.href.includes('localhost')) {
+        newScript.src = "https://www.googletagmanager.com/gtag/js?id=UA-180252461-1"
+        gtag('config', 'UA-180252461-1',{ 'send_page_view': false });
+      } else {
+        newScript.src = "https://www.googletagmanager.com/gtag/js?id=UA-180252461-1"
+        gtag('config', 'UA-180252461-1',{ 'send_page_view': false });
+      }
+      document.head.appendChild(newScript);
+    </script>
+  </body>
+</html>

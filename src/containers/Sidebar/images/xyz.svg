@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="31px" viewBox="0 0 33 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+<title>Group 10</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="MOOZ——工作区" transform="translate(-36.000000, -194.000000)">
+<g id="Group-10" transform="translate(36.000000, 192.000000)" fill="#FFFFFF">
+<path d="M16.5,11.3333333 C17.2593915,11.3333333 17.875,11.9489418 17.875,12.7083333 L17.875,20.625 C17.875,21.3843915 17.2593915,22 16.5,22 C15.7406085,22 15.125,21.3843915 15.125,20.625 L15.125,12.7083333 C15.125,11.9489418 15.7406085,11.3333333 16.5,11.3333333 Z" id="Rectangle-7"></path>
+<path d="M11.6381397,19.1547005 C12.3975313,19.1547005 13.0131397,19.770309 13.0131397,20.5297005 L13.0131397,28.4463672 C13.0131397,29.2057587 12.3975313,29.8213672 11.6381397,29.8213672 C10.8787482,29.8213672 10.2631397,29.2057587 10.2631397,28.4463672 L10.2631397,20.5297005 C10.2631397,19.770309 10.8787482,19.1547005 11.6381397,19.1547005 Z" id="Rectangle-7-Copy-3" transform="translate(11.638140, 24.488034) rotate(60.000000) translate(-11.638140, -24.488034) "></path>
+<path d="M16.5,21.8213672 C16.8796958,21.1836437 17.7206326,20.9651435 18.3782849,21.3333333 L25.5229945,25.3333333 C26.1806469,25.7015232 26.4059752,26.516977 26.0262794,27.1547005 C25.6465837,27.792424 24.8056469,28.0109242 24.1479945,27.6427344 L17.0032849,23.6427344 C16.3456326,23.2745446 16.1203042,22.4590907 16.5,21.8213672 Z" id="Rectangle-7-Copy-2"></path>
+<text id="Y" font-family="PingFangSC-Semibold, PingFang SC" font-size="8" font-weight="500">
+<tspan x="13.75" y="8.16666667">Y</tspan>
+</text>
+<text id="Z" font-family="PingFangSC-Semibold, PingFang SC" font-size="8" font-weight="500">
+<tspan x="0" y="32.8333333">Z</tspan>
+</text>
+<text id="X" font-family="PingFangSC-Semibold, PingFang SC" font-size="8" font-weight="500">
+<tspan x="27.5" y="32.8333333">X</tspan>
+</text>
+</g>
+</g>
+</g>
+</svg>
