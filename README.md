@@ -2,6 +2,12 @@
 
 ## 本项目基于开源软件 CNCJS 基础上进行二次开发, 专用于实现 MOOZ 的硬件控制
 
+---
+
+## 客户端下载地址
+
+https://cn.dobot.cc/downloadcenter/dobot-mooz.html
+
 ## 将包括以下功能
 
 - [ ] 激光雕刻
@@ -41,7 +47,7 @@
 
 ## 本地化
 
-You can help translate resource files in both of [app](https://github.com/cncjs/cncjs/tree/master/src/app/i18n) and [web](https://github.com/cncjs/cncjs/tree/master/src/web/i18n) directories from English to other languages. Check out [Localization guide](https://github.com/cncjs/cncjs/blob/master/CONTRIBUTING.md#localization) to learn how to get started. If you are not familiar with GitHub development, you can [open an issue](https://github.com/cncjs/cncjs/issues) or send your translations to cheton@gmail.com.
+You can help translate resource files in both of [app](https://github.com/cncjs/cncjs/tree/master/src/app/i18n) and [web](https://github.com/cncjs/cncjs/tree/master/src/web/i18n) directories from English to other languages. Check out [Localization guide](https://github.com/cncjs/cncjs/blob/master/CONTRIBUTING.md#localization) to learn how to get started. If you are not familiar with GitHub development, you can [open an issue](https://github.com/cncjs/cncjs/issues).
 
 | Locale                                                                 | Language                       | Status | Contributors                                                                               |
 | :--------------------------------------------------------------------- | :----------------------------- | :----- | :----------------------------------------------------------------------------------------- |
